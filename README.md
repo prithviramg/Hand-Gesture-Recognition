@@ -30,19 +30,19 @@ Converted the image to yCbCr color space to detect the skin color properly
     - Solidity - Ratio of area covered by the contour and hull area
     - Hu-Moments - Hu-moments are the scale and rotational invariant parameters of a shape described using the image moments
 
-    **Feature Vector Table for two different Hand Gestures**
+**Feature Vector Table for two different Hand Gestures**
 
-    |       | No. of Defects | Auxilary Ratio | Contour area ratio | Hull Area ratio | Solidity |
-    | ----- | -------------- | -------------- | ------------------ | --------------- | -------- |
-    | Palm | 4 | 0.972 | 2.04 | 1.43 | 0.68 |
-    | One | 2 | 0.58 | 1.95 | 1.6 | 0.817 |
+|       | No. of Defects | Auxilary Ratio | Contour area ratio | Hull Area ratio | Solidity |
+| ----- | -------------- | -------------- | ------------------ | --------------- | -------- |
+| Palm | 4 | 0.972 | 2.04 | 1.43 | 0.68 |
+| One | 2 | 0.58 | 1.95 | 1.6 | 0.817 |
 
-    **Hu-Moments of the hand region for two different hand posture**
+**Hu-Moments of the hand region for two different hand posture**
 
-    |       | HM1 | HM2 | HM3 | HM4 | HM5 | HM6 | HM7 |
-    | ----- | --- | --- | --- | --- | --- | --- | --- |
-    | Palm | 0.000994 | 6.02E-08 | 2.33E-10 | 2.49E-10 | 5.7E-20 | 5.56E-14 | 1.91E-20 |
-    | One | 0.00087 | 0.00000023 | 1.66E-10 | 4.11E-11 | 3.25E-21 | 1.17E-14 | -1.05E-21 |
+|       | HM1 | HM2 | HM3 | HM4 | HM5 | HM6 | HM7 |
+| ----- | --- | --- | --- | --- | --- | --- | --- |
+| Palm | 0.000994 | 6.02E-08 | 2.33E-10 | 2.49E-10 | 5.7E-20 | 5.56E-14 | 1.91E-20 |
+| One | 0.00087 | 0.00000023 | 1.66E-10 | 4.11E-11 | 3.25E-21 | 1.17E-14 | -1.05E-21 |
 
 ### Closing Operation
 ![](images/closing.png)
