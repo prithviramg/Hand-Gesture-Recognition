@@ -45,7 +45,7 @@ Converted the image to yCbCr color space to detect the skin color properly
     | One | 0.00087 | 0.00000023 | 1.66E-10 | 4.11E-11 | 3.25E-21 | 1.17E-14 | -1.05E-21 |
 
 ### Closing Operation
-![](images/closing.png)
+![](images/Closing.png)
 
 ### Hull Region
 ![](images/contourAndHull.png)
